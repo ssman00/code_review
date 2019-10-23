@@ -1,10 +1,12 @@
+#pragma once
+
 #include <queue>
 
 template <typename T> 
 class TemplatePriorityQueue {
 	public:
 		TemplatePriorityQueue();
-		~TemplatePriorityQueue();
+		virtual ~TemplatePriorityQueue();
 		bool Empty() const;
 		const T& Top() const;
 		const int Size();
